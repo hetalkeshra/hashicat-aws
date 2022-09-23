@@ -128,6 +128,7 @@ resource "aws_instance" "hashicat" {
 
   tags = {
     Name = "devops-hashicat-instance"
+    Billable = "true"
   }
 }
 
